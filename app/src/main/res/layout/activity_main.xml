@@ -36,10 +36,10 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textNoInternet"
+        android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="1dp"
         android:layout_marginBottom="560dp"
         android:fontFamily="sans-serif-smallcaps"
@@ -49,7 +49,6 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/webView"
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
